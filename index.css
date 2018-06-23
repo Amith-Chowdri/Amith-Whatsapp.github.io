@@ -1,0 +1,298 @@
+html, body{
+				font-size: 16px;
+				height: 100%;
+				background-color: lightgreen!important;
+				line-height: normal;
+			}
+			
+			.body{
+				height: 80%;
+			}
+			#align{
+                height: 45px;
+                background-color: black;
+			}
+			#space{
+				float: right;
+				line-height: 40px;
+				margin-right: 15px;
+			}
+
+			#space2{
+				float: right;
+				line-height: 40px;
+				margin-right: 30px;
+			}
+
+			#space3{
+				float: right;
+				line-height: 80px;
+				margin-right: 20px;
+				font-size: 30px;
+			    color: white;
+			}
+
+			#space4{
+				float: right;
+				line-height: 80px;
+				margin-right: 20px;
+				font-size: 30px;
+				color: white;
+			}
+
+			#space5{
+				float: right;
+				line-height: 80px;
+				margin-right: 10px;
+				font-size: 30px;
+				color: white;
+			}
+
+			.dropdown{
+				float: right;
+				background-color: #007f51; 
+				line-height: 45px;
+			}
+
+			#dot{
+				margin-top: 20px;
+			}
+
+			.form-control{
+				margin-left: 10px;
+				width: 100%;
+			}
+
+            .nav{
+				background-color: white;
+			}
+
+			.type{
+				color: white;
+			}
+
+			.msgs{
+				background-color: white;
+			}
+
+			.nav > li > a {
+				color: #020205;
+			}
+			
+			.nav-tabs .nav-link.active {
+				border: none;
+				border-bottom: 4px solid black;
+				margin-bottom: 0px;
+			}
+
+			.nav-link{
+				padding: 0px;
+			}
+
+			ul > li :hover {
+				text-decoration: none !important;
+				color: #020205;
+			}
+			
+			.txt-one{
+				color: black;
+			}
+
+			.txt-two{
+				background-color: #007f51;
+			}
+			
+			.bg{
+				background-image: url(back2.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+			}
+
+			.bg-light{
+				background-color: #d1d8d5!important;
+			}
+			
+			.prfl-one{
+				background-color: #ffffff;
+			}
+
+			.prfl-two{
+				background-color: #8b8b89;
+			}
+
+			#pencil{
+				margin-top: 20px;
+			}
+
+			#design{
+				color: green;
+			}
+
+			.fant{
+				color: white!important;
+			}
+
+			.badge-light{
+				background-color: #007f51;
+				color: white;
+				margin-left: 5px;
+				height: 30px;
+				font-size: 20px;
+			}
+
+			.badge-light:hover{
+				color: white;
+				border-bottom: none;
+			}
+
+			hr{
+				border-top: 1px solid grey;
+			}
+
+			.fit{
+				margin-top: -14px;
+			}
+
+			.dropdown-item{
+				padding-top: 0px;
+			}
+
+			.item{
+				border-bottom: none;
+			}
+
+			.time{
+				font-size: 11px;
+			}
+
+
+/*// Extra Large Devices*/
+@media screen and (min-width:1200px){
+	.head{
+		font-size:1.8em;
+		background-color: #007f51;
+	}
+	p{
+		font-size:1.2em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size:1.4em;
+	}
+	
+}
+
+/*Large Devices*/
+@media screen and (min-width:992px) and (max-width:1199px){
+	.head{
+		font-size: 1.6em;
+		background-color: #007f51;
+	}
+	p{
+		font-size: 1em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 1.3em;
+	}
+	
+}
+
+/*Medium Devices*/
+@media screen and (min-width:768px) and (max-width:991px){
+	.head{
+		font-size: 1.6em;
+		background-color: #007f51;
+	}
+	p{
+		font-size: 1em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 1.3em;
+	}
+	.item:hover{
+		border-bottom: none;
+	}
+	
+}
+
+/*Small Devices*/
+@media screen and (min-width:576px) and (max-width:767px){
+	.head{
+		font-size: 1.4em;
+		background-color: #007f51;
+	}
+	p{
+		font-size: 0.9em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 1.2em;
+	}
+	.item:hover{
+		border-bottom: white;
+	}
+	
+}
+
+/*Mobile Devices*/
+@media screen and (min-width:220px) and (max-width:575px){
+	.head{
+		font-size: 1.4em;
+		background-color: #007f51;
+	}
+	p{
+		font-size: 0.9em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 1.2em;
+	}
+	.form-control{
+		margin-left: 51px;
+		width: 60%;
+	}
+    b{
+    	font-size: 0px;
+    }
+    .item:hover{
+		border-bottom: white;
+	}
+
+}
+
+@media screen and (max-width:304px){
+
+	#space3, #space4, #space5{
+    	font-size: 0px;
+
+}
+
+@media screen and (max-width:219px){
+	.head{
+		font-size: 1.4em;
+		background-color: #007f51;
+	}
+	p{
+		font-size: 0.9em;
+	}
+	h1,h2,h3,h4,h5,h6{
+		font-size: 1.2em;
+	}
+	.form-control{
+		margin-left: 0px;
+		width: 90%;
+	}
+    b{
+    	font-size: 0px;
+    }
+    #space, #space2, #space3, #space4, #space5{
+    	font-size: 0px;
+    }
+    .item{
+		border-bottom: white;
+	}
+	.device{
+		font-size: 0px;
+	}
+	small{
+		font-size: 0px;
+	}
+}

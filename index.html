@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+		<link rel="stylesheet" href="index.css">
+		<title>WhatsApp</title>
+
+	</head>
+
+	<body>
+		<div class="my-5">
+			<div class="d-none d-sm-none d-md-block nav-large fixed-top">
+				
+				<h1 class="container head text-white mb-0 p-3">
+					<img src="whatsicon.png" id="align">
+					<b>WhatsApp</b>
+					<div class="dropdown">
+						<button type="button" class="btn txt-two" data-toggle="dropdown">
+						    <h4 class="d-flex align-items-center"><i class="fa fa-ellipsis-v text-one"></i></h4>
+						</button>
+						<div class="dropdown-menu dropdown-menu-right">
+						    <a class="dropdown-item" href="#"><p>New group</p></a>
+							<a class="dropdown-item" href="#"><p>New broadcast</p></a>
+						    <a class="dropdown-item" href="#"><p>Whatsapp Web</p></a>
+							<a class="dropdown-item" href="#"><p>Starred Messages</p></a>
+							<a class="dropdown-item" href="#"><p>Settings</p></a>
+						</div>
+					</div>
+					<i class="fa fa-search" aria-hidden="true" id="space"></i>
+					<i class="fa fa-camera" aria-hidden="true" id="space2"></i>
+				</h1>	
+				<ul class="py-0 container nav nav-tabs nav-fill d-flex justify-content-center
+				 pr-0" role="tablist">
+				  <li class="nav-item">
+				    <a class="nav-link active text-truncate" href="#main" role="tab" data-toggle="tab" class="item"><h5 class="text-truncate mb-0 py-3">Unread Msgs<span class="badge badge-light">3</span></h5></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#chat" role="tab" data-toggle="tab" class="item"><h5 class="text-truncate mb-0 py-3">Conversation</h5></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#readchats" role="tab" data-toggle="tab" class="item"><h5 class="text-truncate mb-0 py-3">Chats</h5></a>
+				  </li>
+				  <li class="nav-item">
+				  	<a class="nav-link" href="#profile" role="tab" data-toggle="tab" class="item"><h6 class="text-truncate mb-0 py-3">Profile Page</h6></a>
+				  </li>
+				</ul>
+			</div>
+
+			<div class="d-block d-sm-block d-md-none fixed-top">
+				<h1 class="container head text-white mb-0 p-3">
+					<img src="whatsicon.png" id="align">
+					<b>WhatsApp</b>
+				<div class="dropdown">
+					<button type="button" class="btn txt-two" data-toggle="dropdown">
+					    <h4 class="d-flex align-items-center"><i class="fa fa-ellipsis-v text-one"></i></h4>
+					</button>
+				    <div class="dropdown-menu dropdown-menu-right">
+						<a class="dropdown-item" href="#"><p>New group</p></a><hr class="fit">
+						<a class="dropdown-item" href="#"><p>New broadcast</p></a><hr class="fit">
+						<a class="dropdown-item" href="#"><p>Whatsapp Web</p></a><hr class="fit">
+					    <a class="dropdown-item" href="#"><p>Starred Messages</p></a><hr class="fit">
+						<a class="dropdown-item" href="#"><p>Settings</p></a><hr class="fit">
+					</div>
+				</div>
+					<i class="fa fa-search" aria-hidden="true" id="space"></i>
+					<i class="fa fa-camera" aria-hidden="true" id="space2"></i>
+				</h1>
+				<ul class="pt-0 container nav nav-tabs nav-fill d-flex justify-content-center 
+				 pr-0" role="tablist">
+				  <li class="nav-item">
+				  	<a class="nav-link active text-black" href="#main" role="tab" data-toggle="tab" class="item"><h4 class="text-truncate mb-0 py-3"><i class="fa fa-envelope"></i></h4></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link text-black" href="#chat" role="tab" data-toggle="tab"><h4 class="text-truncate mb-0 py-3" class="item"><i class="fa fa-comment"></i></h4></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link text-truncate text-black" href="#readchats" role="tab" data-toggle="tab" class="item"><h4 class="text-truncate mb-0 py-3"><i class="fa fa-comments"></i></h4></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link text-black" href="#profile" role="tab" data-toggle="tab" class="item"><h4 class="text-truncate mb-0 py-3"><i class="fa fa-user-circle-o"></i></h4></a>
+				  </li>
+				</ul>
+			</div>
+
+			<div class="tab-content pt-5">
+				
+				<!-- Main Page -->
+				<div role="tabpanel" class="tab-pane active" id="main">
+			  		<div class="container txt-one">
+						<div class="row pt-5 mt-3">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="group.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate"><i class="fa fa-smile-o"></i> Globalites <i class="fa fa-arrows-h"></i></h5>
+										<p class="text-truncate font-weight-light"><b class="font-weight-bold">Harry : </b> Anyone attending classes tmrw??</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end"><small>11:00pm</small></h5>
+								<p class="d-flex justify-content-end"><span class="msgs  rounded-circle p-2">105</span></p>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Manager</h5>
+										<p class="text-truncate font-weight-light">will arrive on Tuesday.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end"><small>10:50pm</small></h5>
+								<p class="d-flex justify-content-end"><span class="msgs  rounded-circle p-2">02</span></p>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="group.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Edwisor <i class="material-icons">accessibility</i></h5>
+										<p class="text-truncate font-weight-light"><b class="font-weight-bold">Rahul : </b> Anyone completed whatsapp assignment?!!</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end"><small>10:45pm</small></h5>
+								<p class="d-flex justify-content-end"><i class="material-icons p-1">volume_off</i><span class="msgs  rounded-circle p-2">28</span></p>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Rosy</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-check"></i> Busy..Call u later.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3 d-flex justify-content-end py-1">
+								<h5 class="d-flex align-items-start"><small>10:15pm</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Virat</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-video-camera"></i> Video</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3 d-flex justify-content-end py-1">
+								<h5 class="d-flex align-items-start"><small>09:30pm</small></h5>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Aunt</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-check"></i> Get something for me.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3 d-flex justify-content-end py-1">
+								<h5 class="d-flex align-items-start"><small>11:30am</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Aish</h5>
+										<p class="text-truncate font-weight-light">Bbye cyl</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>Yesterday</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Ashwin</h5>
+										<p class="text-truncate font-weight-light">Wanna join?</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>Yesterday</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="icon1.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Anushka</h5>
+										<p class="text-truncate font-weight-light">Complete it asap!!</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>29/05/2018</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Shikhar</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-video-camera"></i> Video</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>18/05/2018</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Dhoni</h5>
+										<p class="text-truncate font-weight-light">I got a new Bike.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>06/05/2018</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row pb-2">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="icon1.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Rithika</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-smile-o"></i></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>10/04/2018</small></h5>
+							</div>
+						</div>
+					</div>
+			  	</div>
+			  	<!-- End of Main Page -->
+			
+				
+				<!-- Conversation Page -->
+			  	<div role="tabpanel" class="tab-pane fade" id="chat">
+				  	<div class="container bg">
+				<!-- Start of Header -->
+						<div class="row mt-4 txt-one txt-two pt-3">
+							<div class="col-lg-8 col-md-7 col-sm-5 col-6">
+								<div class="row py-1">
+									<div class="col-lg-2 col-md-2 col-sm-4 col-5 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="">
+									</div>
+									<div class="col-lg-10 col-md-10 col-sm-8 col-7">
+										<h4>Rosy</h4>
+										<p class="font-weight-bold type">Online</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-5 col-sm-7 col-6 d-flex justify-content-end py-1">
+								<a href="#" data-toggle="tooltip" data-placement="top" title="atttach" class="text-dark">
+								<i class="fa fa-paperclip" aria-hidden="true" id="space3"></i></a>
+								<a href="#" data-toggle="tooltip" data-placement="top" title="Voice call" class="text-dark">
+								<i class="fa fa-phone" aria-hidden="true" id="space4"></i></a>
+								<a href="#" data-toggle="tooltip" data-placement="top" title="Video call" class="text-dark">
+                                <i class="fa fa-video-camera" aria-hidden="true" id="space5"></i></a>
+								<div class="dropdown" id="dot">
+								    <button type="button" class="btn txt-two" data-toggle="dropdown">
+								      <h4 class="d-flex align-items-center"><i class="fa fa-ellipsis-v text-one"></i></h4>
+								    </button>
+								    <div class="dropdown-menu dropdown-menu-right">
+								      <a class="dropdown-item" href="#"><p>Contact Info</p></a>
+								      <a class="dropdown-item" href="#"><p>Select Messages</p></a>
+								      <a class="dropdown-item" href="#"><p>Mute</p></a>
+								      <a class="dropdown-item" href="#"><p>Clear Messages</p></a>
+								      <a class="dropdown-item" href="#"><p>Delete Chat</p></a>
+								    </div>
+							  	</div>
+							</div>
+						</div>
+				<!-- End of Header -->
+				
+				<!-- Start of Conversation -->
+						<div class="body my-1 txt-one">
+           
+							<div class="row mb-1">
+								<div class="col-sm-6 col-5">
+								</div>
+                                   <h4><span class="badge badge-pill badge-info" id="position">Yesterday</span></h4>
+                            </div>
+
+							<div class="row mb-1">
+								<div class="col-sm-8 col-10 d-flex justify-content-start">
+								 <p class="bg-light rounded p-2">Hey <small class="time">06:30pm</small></p>
+								</div>
+								
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-4 col-2">
+								</div>
+								<div class="col-sm-8 col-10 d-flex justify-content-end">
+									<p class="bg-light rounded p-2">Ya tell <small class="time">06:48pm</small><i class="fa fa-check"></i></p>
+								</div>
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-8 col-10 d-flex justify-content-start">
+									<p class="bg-light rounded p-2">Any plans fr tmrw? <small class="time">07:13pm</small></p>
+								</div>
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-4 col-2">
+								</div>
+								<div class="col-sm-8 col-10 d-flex justify-content-end">
+									<p class="bg-light rounded p-2">No I'm free. <small class="time">07:15pm</small><i class="fa fa-check"></i></p>
+								</div>
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-8 col-10 d-flex justify-content-start">
+									<p class="bg-light rounded p-2">I got movie tickets. <small class="time">07:45pm</small></p>
+								</div>
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-8 col-10 d-flex justify-content-start">
+									<p class="bg-light rounded p-2">Wanna join? <small class="time">07:45pm</small></p>
+								</div>
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-4 col-2">
+									
+								</div>
+								<div class="col-sm-8 col-10 d-flex justify-content-end">
+									<p class="bg-light rounded p-2">That's great..Which Movie? <small class="time">08:05pm</small><i class="fa fa-check"></i></p>
+								</div>
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-8 col-10 d-flex justify-content-start">
+									<p class="bg-light rounded p-2">Avengers <small class="time">08:06pm</small></p>
+								</div>
+							</div>
+
+							<div class="row mb-1">
+								<div class="col-sm-4 col-2">
+									
+								</div>
+								<div class="col-sm-8 col-10 d-flex justify-content-end">
+									<p class="bg-light rounded p-2">Send me the timings. <small class="time">08:20pm</small><i class="fa fa-check"></i></p>
+								</div>
+							</div>		
+
+						<div class="row mb-1">
+							<div class="col-sm-8 col-10 d-flex justify-content-start">
+								<p class="bg-light rounded p-2">It's a noon show.Come around 2:30 <small class="time">09:05pm</small></p>
+							</div>
+						</div>
+
+						<div class="row mb-1">
+								<div class="col-sm-4 col-2">
+									
+								</div>
+								<div class="col-sm-8 col-10 d-flex justify-content-end">
+									<p class="bg-light rounded p-2">I'll be there on time. <small class="time">10:30pm</small><i class="fa fa-check"></i></p>
+								</div>
+						</div>		
+                       
+                       <div class="row mb-1">
+							<div class="col-sm-6 col-5">
+							</div>
+                                <h4><span class="badge badge-pill badge-info" id="position">Today</span></h4>
+                       </div>
+                   
+						<div class="row mb-1">
+							<div class="col-sm-8 col-10 d-flex justify-content-start">
+							    <p class="bg-light rounded p-2">Pick up the call!!! <small class="time">10:12pm</small></p>
+							</div>
+						</div>
+
+						<div class="row mb-1">
+								<div class="col-sm-4 col-2">
+									
+								</div>
+								<div class="col-sm-8 col-10 d-flex justify-content-end">
+									<p class="bg-light rounded p-2">Busy..Call u later. <small class="time">10:15pm</small><i class="fa fa-check"></i></p>
+								</div>
+						</div>
+					</div>
+				<!-- End of Conversation -->
+
+				<!-- Start of Footer -->
+						<div class="row txt-two pt-4">
+							<div class="col-sm-2 col-2 d-flex justify-content-start align-items-center">
+								<a href="#" data-toggle="tooltip" data-placement="top" title="emojis" class="text-dark device">
+								 	<h4><i class="fa fa-smile-o fant p-2  rounded"></i></h4></a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="camera" class="text-dark device">
+								 	<h4><i class="fa fa-camera fant p-2 rounded"></i></h4></a>
+								<a href="#" data-toggle="tooltip" data-placement="top" title="microphone" class="text-dark device">
+								 	<h4><i class="fa fa-microphone fant p-2 rounded"></i></h4></a>
+							</div>
+
+							<div class="col-sm-9 col-8">
+								<form class="form-block">
+								    <input type="text" class="form-control" placeholder="Type a message" >
+								 </form>
+							</div>
+
+							<div class="col-sm-1 col-2 d-flex justify-content-end align-items-center">
+								<a href="#" data-toggle="tooltip" data-placement="top" title="send !" >
+									<h4 class="d-flex align-items-start">
+										<i class="text-dark fa fa-paper-plane fant p-2 rounded device"></i>
+								    </h4>
+								</a>
+							</div>
+						</div>
+				<!-- End of Footer -->
+					</div>
+			  	</div>
+
+				
+				<!-- Chats Page -->
+			  	<div role="tabpanel" class="tab-pane fade" id="readchats">
+			  		<div class="container txt-one">
+						<div class="row mt-4 pt-4">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" class="rounded-circle" width="50" height="50" alt="">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Rosy</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-check"></i> Busy..Call u later.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3 d-flex justify-content-end py-1">
+								<h5 class="d-flex align-items-start"><small>10:15pm</small></h5>
+							</div>
+						</div>
+						
+						<hr>
+
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Virat</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-video-camera"></i> Video</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3 d-flex justify-content-end py-1">
+								<h5 class="d-flex align-items-start"><small>09:30pm</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Aunt</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-check"></i> Get something for me.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3 d-flex justify-content-end py-1">
+								<h5 class="d-flex align-items-start"><small>11:30am</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Aish</h5>
+										<p class="text-truncate font-weight-light">Bbye cyl</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>Yesterday</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Ashwin</h5>
+										<p class="text-truncate font-weight-light">Wanna join?</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>Yesterday</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="icon1.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Anushka</h5>
+										<p class="text-truncate font-weight-light">Complete it asap!!</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>29/04/2018</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Shikhar</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-video-camera"></i> Video</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>18/05/2018</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="dp.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Dhoni</h5>
+										<p class="text-truncate font-weight-light">I got a new Bike.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>06/05/2018</small></h5>
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="row">
+							<div class="col-lg-10 col-sm-10 col-9">
+								<div class="row pb-2">
+									<div class="col-lg-1 col-md-2 col-sm-2 col-3 d-flex justify-content-center align-items-center">
+										<img src="icon1.png" width="50" height="50" alt="" class="rounded-circle">
+									</div>
+									<div class="col-lg-11 col-md-10 col-sm-10 col-9">
+										<h5 class="text-truncate">Rithika</h5>
+										<p class="text-truncate font-weight-light"><i class="fa fa-smile-o"></i></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-2 col-sm-2 col-3">
+								<h5 class="d-flex justify-content-end align-items-start"><small>10/04/2018</small></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Profile Page -->
+			  	<div role="tabpanel" class="tab-pane fade" id="profile">
+			  		<div class="container">
+						<div class="row mt-4 prfl-one">
+							<div class="col-lg-3 col-sm-5 col-12 p-5 d-flex justify-content-center align-items-center p-3">
+								<div class="d-none d-sm-none d-md-block">
+									<img src="profile.png" width="150" height="150" alt="">
+								</div>
+								<div class="d-none d-sm-block d-md-none">
+									<img src="profile.png" width="120" height="120" alt="">
+								</div>
+
+								<div class="d-block d-sm-none p-3">
+									<img src="profile.png" width="100" height="100" alt="">
+								</div>
+								
+							</div>
+							<div class="col-lg-9 col-sm-7 col-12 px-3 py-2 prfl-two">
+								<div class="d-none d-sm-block">
+									<h4 class="d-flex justify-content-start align-items-center"><span class="p-3 text-truncate">Amith Chowdri</span> <button type="button" class="btn btn-outline-secondary bg-dark rounded-circle text-white" id="pencil" data-toggle="tooltip" data-placement="right" title="Edit User Name"><i class="fa fa-pencil"></i></button></h4>
+									
+									<div class="p-2">
+										<button type="button" class="btn btn-dark text-white"> 
+											<i class="fa fa-camera px-2"></i> Add Profile Pic
+										</button>	
+									</div>
+								</div>
+
+								<div class="d-block d-sm-none">
+									<h4 class="d-flex justify-content-center align-items-center"><span class="p-3 text-truncate">Amith Chowdri</span> <small> <button type="button" class="btn btn-outline-secondary bg-dark rounded-circle text-white" data-toggle="tooltip" data-placement="right" title="Edit User Name" ><i class="fa fa-pencil"></i></button> </small></h4>
+
+									<div class="p-3 d-flex justify-content-center">
+										<button type="button" class="btn btn-dark text-white"> 
+											<i class="fa fa-camera px-2"></i> Add Profile Pic
+										</button>	
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="my-4 prfl-two">
+							<div class="row prfl-one txt-one">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-12 p-3">
+									<h5 class="font-weight-light" id="design">About and Phone Number :</h5>
+								</div>	
+							</div>
+						</div>
+
+						<div class="my-4">
+							<div class="row prfl-one py-3">
+								<div class="col-lg-8 col-sm-10 col-8 d-flex justify-content-start align-items-center">
+									<h5 class="text-truncate">Web Developer</h5>
+								</div>
+								<div class="col-lg-4 col-sm-2 col-4 d-flex justify-content-end">
+									<button type="button" class="btn btn-outline-secondary bg-dark rounded-circle text-white" data-toggle="tooltip" data-placement="left" title="Edit Status"><i class="fa fa-pencil"></i></button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="my-4">
+							<div class="row py-3 prfl-one">
+								<div class="col-lg-8 col-sm-10 col-8 d-flex justify-content-start align-items-center">
+									<h5 class="text-truncate">+918792788878</h5>
+								</div>
+								<div class="col-lg-4 col-sm-2 col-4 d-flex justify-content-end">
+									<button type="button" class="btn btn-outline-secondary bg-dark rounded-circle text-white" data-toggle="tooltip" data-placement="left" title="Edit Mobile Num"><i class="fa fa-pencil"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+			  	</div>
+    
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  		<script>
+			$(function () {
+  				$('[data-toggle="tooltip"]').tooltip()
+			})
+		</script>
+	</body>
+</html>
